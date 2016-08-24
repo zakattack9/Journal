@@ -8,45 +8,68 @@
     <!--This is my first comment-->
     <header>
       <h1 style="color:red;">WAZZUP PEOPLE OF THE INTERNET!</h1>
+      <h4>My Awesome Blog</h4>
       <img src="https://avatars1.githubusercontent.com/u/20864647?v=3&u=83e3d7df740c5ba685ceb4a9fb56cb62b24a7063&s=140" >
     </header><!--header-->
-      <h2>My First Entry</h2>
-      <h6>Aug 15</h6>
-      <div><!--I'm a parent-->
-        <h3>Why I Took This Class</h3>
-        <!--I'm a child-->
-        <p>I took this class because I am interested in <b>learning how to make my own applications and code my own programs</b>.</p>
-      </div>
-      <div>
-        <h3>What I Want To Get Out of This Class</h3>
-        <p>
-          To be able to <span>code</span> applications, games, and programs while learning knowledge on working with CLI and Markup/Programming Language.
-        </p>
-      </div>
-      <div aside>
-        <h3>Blog</h3>
-        <NAV>
-          <UL>
+    <div class="container">
+      <div class="aside">
+        <h5>Blog</h5>
+        <nav>
+          <ul>
             <li>
-              <a href="">
-              </a>
+              <a href="#first">My First Blog Entry</a>
             </li>
-          </UL>
-        </NAV>
+            <li>
+              <a href="#">HTML &amp; CSS</a>
+            </li>
+            <li>
+              <a href="#">Javascript</a>
+            </li>
+          </ul>
+        </nav>
       </div>
+      <div id="first" class="content">
+        <h2>My First Entry</h2>
+        <h6>Aug 15, 2016</h6>
+        <div class="article"><!--I'm a parent-->
+          <h3>Why I Took This Class</h3><!--I'm a child-->
+          <p>
+            I took this class because I am interested in <b>learning how to make my own applications and code my own programs</b>.
+          </p>
+        </div>
+        <div class="article">
+          <h3>What I Want To Get Out of This Class</h3>
+          <p>
+            To be able to <span class="highlight">code</span> applications, games, and programs while learning knowledge on working with CLI and Markup/Programming Language.
+          </p>
+        </div>
+      </div> 
+      <div id="second" class="content">
+        <h2>UX vs UI</h2>
+        <h6>August 24, 2016</h6>
+        <div class="article">
+          <h3>Difference Between UX and UI</h3>
+          <p>
+            UX Stands for User Experience, the users experience while using a website or application; user's experience may be pleased if the website is organized and interactive with the user. 
+          </p>
+          <p>
+            UI Stands for User Interface, the graphical desgin of an application or website; this is what the users sees while using the website, it is often colorful for better eye appeal.
+          </p>
+        </div>
+      </div>     
+    </div>
       <div>
-        <h5 style="color:white">Can you read me???</h5>
-      </div>
-      <div>
-        <h2 style="color:purple">How is this website?</h2>
+        <h3 style="color:purple">How is this website?</h3>
         <select>
-        <option value="">Choose a Rating</option>o
-        <optgroup label="Here are your options">
-          <option value="">SUPER GOOD!</option>
-          <option value="">AWESOME!</option>
-          <option value="">EHH OKAY</option>
-          <option value="">QUIT CODING</option>
-        </optgroup>
+          <option value="">Choose a Rating</option>
+          <optgroup label="Here are your options">
+            <option value="">SUPER GOOD!</option>
+            <option value="">AWESOME!</option>
+            <option value="">GOOD KINE...</option>
+            <option value="">EHH OKAY</option>
+            <option value="">QUIT CODING</option>
+            <option value="">DELETE THIS WEBSTIE!</option>
+          </optgroup>
         </select>
       </div>
     <footer>
