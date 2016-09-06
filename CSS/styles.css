@@ -3,21 +3,22 @@ header {
 }
 
 header h1 {
-  border: 1px solid black;
+  width: 610px;
+  border: 7px darkturquoise ridge;
   background-color: powderblue;
+  margin-left: auto;
 }
 
 header h4 {
-  display: inline;
-  position: relative;
-  letter-spacing: 2px;
-  color: blue;
-  opacity: 0.5;
+  letter-spacing: 5px;
+  color: skyblue;
+  opacity: 0.75;
 }
 
 .aside {
   float: left;
   border: 2px solid gray;
+  margin-right: auto;
 }
 
 .image {
@@ -25,13 +26,19 @@ header h4 {
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
-  border: 5px springgreen double;
+  border: 5px springgreen solid;
 }
 
 #first .square {
   background-color: pink;
+  border: 9px darkred double;
+  padding: 10px;
+  margin: 10px;
 }
 
 #second .square {
   background-color: mediumspringgreen;
+  border: 9px seagreen double;
+  padding: 10px;
+  margin: 10px;
 }
