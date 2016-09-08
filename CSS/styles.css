@@ -6,7 +6,7 @@ header h1 {
   width: 610px;
   border: 7px darkturquoise ridge;
   background-color: powderblue;
-  margin-left: auto;
+  margin: auto;
 }
 
 header h4 {
@@ -17,8 +17,10 @@ header h4 {
 
 .aside {
   float: left;
-  border: 2px solid gray;
-  margin-right: auto;
+  border: 9px solid gray;
+  width: 20%;
+  padding: 10px;
+  height: 600px;
 }
 
 .image {
@@ -34,6 +36,8 @@ header h4 {
   border: 9px darkred double;
   padding: 10px;
   margin: 10px;
+  width: 70%;
+  float: right;
 }
 
 #second .square {
@@ -41,4 +45,16 @@ header h4 {
   border: 9px seagreen double;
   padding: 10px;
   margin: 10px;
+  width: 70%;
+  float: right;
+}
+
+.rating {
+  float: left;
+  border: 7px purple solid;
+}
+
+footer {
+  text-align: center;
+  padding-top: 750px;
 }
