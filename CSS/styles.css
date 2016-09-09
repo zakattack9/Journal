@@ -107,6 +107,7 @@ header h4 {
   background-color: rgba(255, 253, 158, 0.9);
   opacity: 0.75;
   font-size: 105%;
+  text-align: center;
   position: relative;
   top: 12px;
   left: 16px;
