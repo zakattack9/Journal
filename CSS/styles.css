@@ -48,7 +48,7 @@ header h4 {
   float: right;
 }
 
-#first {
+.first {
   background-color: pink;
   border: 9px darkred double;
 }
@@ -64,7 +64,7 @@ header h4 {
   right: 10px;
 }
 
-#second {
+.second {
   background-color: mediumspringgreen;
   border: 9px seagreen double;
 }
@@ -79,7 +79,7 @@ header h4 {
 
 }
 
-#third {
+.third {
   background-color: lightsalmon;
   border: 9px chocolate double;
 }
@@ -104,7 +104,7 @@ header h4 {
   font-size: 105%;
   text-align: center;
   position: relative;
-  bottom: 1350px;
+  bottom: 1300px;
   left: 16px;
 }
 
