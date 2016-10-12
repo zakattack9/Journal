@@ -112,6 +112,21 @@ ul li a {
   right: 10px;
 }
 
+.fourth {
+  background-color: yellow;
+  border: 9px gray double;
+}
+
+.fifth {
+  background-color: skyblue;
+  border: 9px blue double;
+}
+
+.sixth {
+  background-color: purple;
+  border: 9px orchid double;
+}
+
 .bottomhr {
   width: 100%
 }
