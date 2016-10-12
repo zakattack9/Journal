@@ -61,15 +61,6 @@ ul li a {
   display: inline-block;
 }
 
-.top{
-  font-family: "Courier New", Courier, monospace;
-  display: inline-block;
-  position: fixed;
-  top: 847px;
-  left: 53px;
-  text-decoration: none;
-}
-
 .content {
   padding: 10px;
   margin: 10px;
@@ -125,7 +116,14 @@ ul li a {
   width: 100%
 }
 
-footer {
+.top{
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: none;
+  position: relative;
+  left: 610px;
+}
+
+footer p {
   color: #07CEA0;
   opacity: 0.8;
   position: relative;
