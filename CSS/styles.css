@@ -28,17 +28,46 @@ header h4 {
   float: left;
   border: 9px lightgray inset;
   width: 15%;
-  height: 607px;
+  height: 510px;
   padding: 10px;
   background-color: paleturquoise;
   opacity: 0.75;
-  position: relative;
-  top: 11px;
-  left: 16px;
+  position: fixed;
+  left: 20px;
+  top: 148px;
 }
 
 .aside h3 {
   margin-left: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+.rating {
+  float: left;
+  border: 9px  mediumorchid outset;
+  width: 15%;
+  height: 90px;
+  padding: 10px;
+  background-color: rgba(255, 253, 158, 0.9);
+  opacity: 0.75;
+  font-size: 105%;
+  text-align: center;
+  position: fixed;
+  left: 20px;
+  top: 720px;
+  display: inline-block;
+}
+
+.top{
+  font-family: "Courier New", Courier, monospace;
+  display: inline-block;
+  position: fixed;
+  top: 847px;
+  left: 53px;
+  text-decoration: none;
 }
 
 .content {
@@ -90,22 +119,6 @@ header h4 {
   position: relative;
   bottom: 100px;
   right: 10px;
-}
-
-
-.rating {
-  float: left;
-  border: 9px  mediumorchid outset;
-  width: 15%;
-  height: 90px;
-  padding: 10px;
-  background-color: rgba(255, 253, 158, 0.9);
-  opacity: 0.75;
-  font-size: 105%;
-  text-align: center;
-  position: relative;
-  bottom: 1300px;
-  left: 16px;
 }
 
 .bottomhr {
