@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Journal</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
   <body>
-    <head>
-      <meta charset="utf-8">
-      <title>Journal</title>
-      <link rel="stylesheet" type="text/css" href="css/styles.css">
-    </head>
     <header>
       <h1 style="color:slategrey;">WAZZUP PEOPLE OF THE INTERNET!</h1>
       <h4>My Awesome Blog</h4>
@@ -100,20 +100,45 @@
             </p>
         </div>
       </div>
-      <div>
+      <div id="fourth" class="content">
         <h2 style="color: ;">DigimonGo</h2>
         <h5>September 23, 2016</h5>
         <img src=""/>
         <div class="article">
           <h3><i>Using "display" &amp; "clearfix" in CSS</i></h3>
             <p>
-              The "display" element in CSS is used to prevent the parent element from ignoring the child elemnts properties such as width, margin, and padding. The "display" element is specified with either block or inline. 
+              The "display" element in CSS is used to prevent the parent element from ignoring the child elemnts properties such as width, margin, and padding. The "display" element is specified with either block or inline. Clearix is in CSS when multiple elements are floated within a parent. Often times the parent will ignore its child if multiple block elements are being floated. Clearix prevents the parent from collapsing on its children elements and stops it fro ignoring the different float commands. There are many clearfix codes, but most of them do the same thing even if they are a shortened code.
             </p>
         </div>
         <div class="article">
           <h3><i>Implementing different fonts into HTML and CSS</i></h3>
             <p>
               One way to implement a different font into HTML and CSS is to go to, "fonts.google.com"; here you will find a variety of fonts to choose from to match the theme/style of your page. Once you select the font, GoogleFonts will automatically give you a code to copy and paste into your HTML and CSS. The HTML code that the website gives you is simply an "href" linking the page to where the font lays within the website. The CSS code uses the "font-family" command specifying the family.
+            </p>
+        </div>
+      </div>
+      <div id="fifth" class="content">
+        <h2 style="color: ;">Responsive Web Design</h2>
+        <h5>September 28, 2016</h5>
+        <img src=""/>
+        <div class="article">
+          <h3><i>Responsive Web Design</i></h3>
+            <p>
+              Responsive web desgin also known as fluid design is when one builds a website that responds to multiple sizes. The most common screen sizes are from desktop computers, smartphones, and tablets. By allowing a site to respond to multiple screen sizes, your website does not have overlapping elements when shrunk our expanded. Some popular examples of responsive web design are Google and Facebook. If you resize website, you'll notice how the elements shrink and don't overlap each other keeping everything neat and organized. This can be done using media queries which tells your design in CSS to change if a certain condition is met. For example, is the screen size shrinks below 500px, the background-color will automatically change to blue.
+            </p>
+            <p>
+              Mobile design is closely related to fluid design. These are web applications made to wrok for mobile. The term "mobile first" is commonly used as it scales a web application to mobile first. Therefore the media queries are set to change on the exapnsion of a screen size. One example of mobile design is Instagram; it simple to use and relies on expanding media queries. As mentioned above, media queries can be used to change a website based on screen size; however, em, a unit in CSS, can also be used to adjust the size of everything on the web page. It is usually based upon the font size. For example, if a child element is set at .5em and its parent size at 16px, .5em is actually 10px (16 x .5), this means the child element will always be half the size of its parent element.
+            </p>  
+        </div>
+      </div>
+      <div id="sixth" class="content">
+        <h2 style="color: ;">Media Queries</h2>
+        <h5>October 7, 2016</h5>
+        <img src=""/>
+        <div class="article">
+          <h3><i>Using Media Queries</i></h3>
+            <p>
+              Media queries provides a way for the web browser to change its content based on the size of the browser width; this is commonly used for designing "mobile first" web pages and is a part of responsive desgin. In CSS media queries use the @media command to define the pages break points; it has a minimum and a maximum width or height. Width is more commonly used over height because it changes much more drastically when resizing the page. The breakpoints can be the widths of different screen sizes usually consisting of a smartphone size (usually 320px minimum), a tablet size (768px minimum), and desktop/laptop computer sizes (1224px minimum). To incorporate these three breakpoints, the smallest size (smartphone) should always be set at a <b>maximum</b> size; this is so that the browser knows that if the width is over 500 pixels, then the webpage being displayed is not on a smartphone but rather on maybe a tablet; thus the webpage changes to the properties set at the tablet media query. The middle size (tablet) should have a <b>minimum and a maximum</b>; for example, the minimum may be 768px min, and 1200px max. That way if the web browser size is between this range, it knows that it's being displayed on a tablet, and its contents will conform to the properties set. And finally, the last size (desktop/laptop) should be set at a <b>minimum</b> pixel width. Any size over the minimum width, the browser knows to display its contents in a desktop format.
             </p>
         </div>
       </div>
