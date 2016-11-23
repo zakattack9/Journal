@@ -36,6 +36,12 @@
             <li>
               <a href="#link6">Media Queries</a>
             </li>
+            <li>
+              <a href="#link7">Basic JavaScript</a>
+            </li>
+            <li>
+              <a href="link8">Conditional Statements</a>
+            </li>
           </ul>
         </nav>
         <br>
@@ -63,18 +69,18 @@
         </nav>
         </aside>
         <div class="rating">
-        <h3 style="color:purple">How is this website?</h3>
-        <select>
-          <option value="">Choose Here!</option>
-          <optgroup label="Here are your options">
-            <option value="">SUPER GOOD!</option>
-            <option value="">AWESOME!</option>
-            <option value="">GOOD KINE...</option>
-            <option value="">EHH OKAY</option>
-            <option value="">QUIT CODING</option>
-            <option value="">DELETE WEBSTIE</option>
-          </optgroup>
-        </select>
+          <h3 style="color:purple">How is this website?</h3>
+          <select>
+            <option value="">Choose Here!</option>
+            <optgroup label="Here are your options">
+              <option value="">SUPER GOOD!</option>
+              <option value="">AWESOME!</option>
+              <option value="">GOOD KINE...</option>
+              <option value="">EHH OKAY</option>
+              <option value="">QUIT CODING</option>
+              <option value="">DELETE WEBSTIE</option>
+            </optgroup>
+          </select>
         </div>
       </div>
       <div id="link1" class="content first">
@@ -166,6 +172,28 @@
               Media queries provides a way for the web browser to change its content based on the size of the browser width; this is commonly used for designing "mobile first" web pages and is a part of responsive desgin. In CSS media queries use the @media command to define the pages break points; it has a minimum and a maximum width or height. Width is more commonly used over height because it changes much more drastically when resizing the page. The breakpoints can be the widths of different screen sizes usually consisting of a smartphone size (usually 320px minimum), a tablet size (768px minimum), and desktop/laptop computer sizes (1224px minimum). To incorporate these three breakpoints, the smallest size (smartphone) should always be set at a <b>maximum</b> size; this is so that the browser knows that if the width is over 500 pixels, then the webpage being displayed is not on a smartphone but rather on maybe a tablet; thus the webpage changes to the properties set at the tablet media query. The middle size (tablet) should have a <b>minimum and a maximum</b>; for example, the minimum may be 768px min, and 1200px max. That way if the web browser size is between this range, it knows that it's being displayed on a tablet, and its contents will conform to the properties set. And finally, the last size (desktop/laptop) should be set at a <b>minimum</b> pixel width. Any size over the minimum width, the browser knows to display its contents in a desktop format.
             </p>
         </div>
+      </div>
+      <div id="link7" class="content seventh">
+        <h2 style="color: ;">Basic JavaScript</h2>
+        <h5>October 31, 2016</h5>
+        <img src=""/>
+        <div class="article">
+          <h3><i>Variables, Functions, and Console.log</i></h3>
+            <p>
+              In short, JavaScript is another programming language that provides the functionality for a web page. Unlike HTML which provides the structure/foundation and CSS, the look/design of the wbe page, JavaScript adds animations, and in a way is the UX. JS uses logic, variable, and functions to run its script all of which are done on a seperate stylesheet linked to the HTML. <b>Variables</b> are containers for storing data values. An example of a variable string is, var = "HelloWorld"; of course there are many different data values such as booleans, numbers, strings, null, and more but I won't overwhelm you right now. <b>Functions</b> can also be found in JavaScript. Like a regular function, it takes inputs and returns an output. Functions can vary from adding variables to checking if one thing is greater than another. Functions must always be <i>invoked</i>. This is calling out the function letting it know that it must run with the giving data. One final command in JavaScript is <b>console.log()</b>. Whatever is within the parenthesis of console log will be shown. It can be a message in <i>quotations</i> or the name of a function that is to run. 
+            </p>
+        </div>
+      </div>
+    </div>
+    <div id="link8" class="content eight">
+      <h2 style="color: ;">Conditionals</h2>
+      <h5>November 2, 2016</h5>
+      <img src=""/>
+      <div class="article">
+        <h3><i>If, Else If, Else</i></h3>
+          <p>
+            A conditional statement in JavaScript is found within a function. In proper syntax it should have a } followed by the conditional statement followed by { after the argument. Conditional statements will only run if a certain condition is met, for example, "<b>if</b> the number of aliens is less than 5000, do this..." The three main conditional statements are <b>if</b>, <b>else if</b>, and <b>else</b>. The if conditional statement runs a part of the function only if it is true or met. Unlike the else if statement, once the if statement is met preceeding conditional statements are not shown on the console. Else if statements runs a new code of script even if there are multiple conditionals. Therefore, any else if statement that is met, will be shown on the console. The else statement runs only if the "if" conditional statement turns out false. This is useful for making an action occur when one condition isn't met making the function always give an output. Conditional statements can be linked with &amp;&amp;, || and can also execute functions or return a string. In total, conditional statements are good for having multiple outputs for one input in a function.
+          </p>
       </div>
     </div>
     <hr noshade color="slategrey" class="bottomhr"/>
