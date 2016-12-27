@@ -28,7 +28,7 @@ header h4 {
   float: left;
   border: 9px lightgray inset;
   width: 15%;
-  height: 510px;
+  height: 440px;
   padding: 10px;
   background-color: paleturquoise;
   opacity: 0.75;
@@ -57,7 +57,7 @@ ul li a {
   text-align: center;
   position: fixed;
   left: 20px;
-  top: 720px;
+  top: 650px;
   display: inline-block;
 }
 
@@ -123,23 +123,28 @@ ul li a {
 }
 
 .sixth {
-  background-color: purple;
+  background-color: mediumpurple;
   border: 9px orchid double;
 }
 
 .seventh {
-  background-color: 
-  border:
+  background-color: palegreen;
+  border: 9px paleturquoise double;
 }
 
 .eighth {
-  background-color: 
-  border:
+  background-color: tomato;
+  border: 9px turquoise double;
 }
 
 .ninth {
-  background-color: 
-  border:
+  background-color: teal;
+  border: 9px steelblue double;
+}
+
+.tenth {
+  background-color: peachpuff;
+  border: 9px papayawhip double;
 }
 
 .bottomhr {
