@@ -40,3 +40,18 @@ var simplifiedJSON = [
     ]
   }
 ]
+
+/*
+
+Create a function named showAll
+Pass one parameter (data)
+
+Inside the function:
+ -Iterate through data
+ -For each object create elements
+ -Create parent div with id, "#link-1" + object.id
+ -Create an h1, appending object.title to h1
+ -Repeat this process for every value
+ -Once finished, append all elements and values to parent div
+ 
+*/
